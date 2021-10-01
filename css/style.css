@@ -1,0 +1,83 @@
+/* generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+
+.larghezza{
+    width: 60%;
+    margin: auto;
+}
+
+/* header */
+#head{
+    height: 80px;
+    margin: 15px auto;
+}
+
+/* jumbo */
+
+
+/* main */
+#top-main{
+    margin: 15px 0;
+}
+
+#mid-main{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#mid-main #row-left,
+#mid-main #row-right{
+    width: 30%;
+}
+
+#mid-main #row-mid{
+    width: 38%;
+    margin: 0 1%;
+}
+
+/* footer */
+footer{
+    height: 40px;
+}
+
+/* ------- debug ------- */
+.debug header{
+    background-color: violet;
+}
+
+.debug .jumbo{
+    height: 400px;
+    background-color: gold;
+}
+
+.debug #top-main{
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+.debug #mid-main div{
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+.debug footer {
+    background-color: purple;
+}
