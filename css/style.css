@@ -1,3 +1,5 @@
+/* font-family: 'Roboto', sans-serif; */
+
 /* generali */
 *{
     padding: 0;
@@ -7,6 +9,12 @@
 
 body{
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
 }
 
 .clearfix{
@@ -26,8 +34,25 @@ body{
 
 /* header */
 #head{
-    height: 80px;
     margin: 15px auto;
+}
+
+#logo img{
+    height: 60px;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+}
+
+#menu{
+    padding: 20px 0;
+}
+
+#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 15px;
+    margin-right: 10px;
 }
 
 /* jumbo */
